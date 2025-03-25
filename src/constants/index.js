@@ -16,13 +16,15 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  kleiba,
+  s,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  starbucks,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -116,11 +118,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "SDE Intern",
+    company_name: "Kleiba Private Limited",
+    icon: kleiba,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
